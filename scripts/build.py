@@ -83,7 +83,7 @@ def main():
         meta["skill_name"] = fm.get("name", slug)
         meta["description"] = fm.get("description", "")
         meta["zip"] = f"{slug}.zip"
-        meta["github"] = f"https://github.com/adaptcom/workflows/tree/main/workflows/{slug}"
+        meta["github"] = f"https://github.com/adapt/workflows/tree/main/workflows/{slug}"
         catalog.append(meta)
         print(f"  packaged {slug} -> dist/{slug}.zip")
 
